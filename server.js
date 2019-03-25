@@ -4,7 +4,7 @@ const app = express();
 app.use(express.json());
 
 app.get('/', function(req, res){
-    res.sendfile('./src/view/index.html');
+    res.sendfile('./index.php');
   });
   
   var porta = process.env.PORT || 8080;
