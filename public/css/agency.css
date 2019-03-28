@@ -1,3 +1,8 @@
+/*!
+ * Start Bootstrap - Agency v5.0.7 (https://startbootstrap.com/template-overviews/agency)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
+ */
 
 body {
   overflow-x: hidden;
@@ -9,18 +14,23 @@ p {
 }
 
 a {
-  color: #24d8cf;
+  color: #fed136;
 }
 
 a:hover {
-  color: #24d8cf;
+  color: #fec503;
 }
 
 .text-primary {
-  color: #24d8cf !important;
+  color: #fed136 !important;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: 700;
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
@@ -56,18 +66,18 @@ section h3.section-subheading {
 }
 
 .btn-xl {
-  font-size: 16px;
-  padding: 15px 25px;
+  font-size: 18px;
+  padding: 20px 40px;
 }
 
 .btn-primary {
-  background-color: #24d8cf;
-  border-color: #24d8cf;
+  background-color: #fed136;
+  border-color: #fed136;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #24d8cf !important;
-  border-color: #24d8cf !important;
+  background-color: #fec810 !important;
+  border-color: #fec810 !important;
   color: white;
 }
 
@@ -77,7 +87,7 @@ section h3.section-subheading {
 }
 
 ::selection {
-  background: #24d8cf;
+  background: #fed136;
   text-shadow: none;
 }
 
@@ -100,17 +110,17 @@ img::-moz-selection {
   text-transform: uppercase;
   color: white;
   border: 0;
-  background-color: #24d8cf;
+  background-color: #fed136;
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 #mainNav .navbar-brand {
-  color: #24d8cf;
+  color: #fed136;
   font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #24d8cf;
+  color: #fec503;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -119,11 +129,11 @@ img::-moz-selection {
   padding: 0.75em 0;
   letter-spacing: 1px;
   color: white;
-  font-family: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #24d8cf;
+  color: #fed136;
 }
 
 @media (min-width: 992px) {
@@ -169,7 +179,7 @@ header.masthead .intro-text {
   padding-bottom: 100px;
 }
 
-header.masthead .intro-lead-in {
+header.masthead .intro-text .intro-lead-in {
   font-size: 22px;
   font-style: italic;
   line-height: 22px;
@@ -178,24 +188,30 @@ header.masthead .intro-lead-in {
 }
 
 header.masthead .intro-text .intro-heading {
-  font-size: 20px;
+  font-size: 50px;
   font-weight: 700;
+  line-height: 50px;
+  margin-bottom: 25px;
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 @media (min-width: 768px) {
   header.masthead .intro-text {
-    padding-top: 200px;
-    padding-bottom: 100px;
+    padding-top: 300px;
+    padding-bottom: 200px;
   }
   header.masthead .intro-text .intro-lead-in {
-    font-size: 24px;
+    font-size: 40px;
     font-style: italic;
+    line-height: 40px;
+    margin-bottom: 25px;
     font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   }
   header.masthead .intro-text .intro-heading {
-    font-size: 15px;
+    font-size: 75px;
     font-weight: 700;
+    line-height: 75px;
+    margin-bottom: 50px;
     font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   }
 }
@@ -225,7 +241,7 @@ header.masthead .intro-text .intro-heading {
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background: #24d8cf;
+  background: rgba(254, 209, 54, 0.9);
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -247,7 +263,8 @@ header.masthead .intro-text .intro-heading {
   margin-top: -12px;
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3, #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
   margin: 0;
 }
 
@@ -378,22 +395,22 @@ header.masthead .intro-text .intro-heading {
   background-color: #e9ecef;
 }
 
-.timeline>li {
+.timeline > li {
   position: relative;
   min-height: 50px;
   margin-bottom: 50px;
 }
 
-.timeline>li:after, .timeline>li:before {
+.timeline > li:after, .timeline > li:before {
   display: table;
   content: ' ';
 }
 
-.timeline>li:after {
+.timeline > li:after {
   clear: both;
 }
 
-.timeline>li .timeline-panel {
+.timeline > li .timeline-panel {
   position: relative;
   float: right;
   width: 100%;
@@ -401,21 +418,21 @@ header.masthead .intro-text .intro-heading {
   text-align: left;
 }
 
-.timeline>li .timeline-panel:before {
+.timeline > li .timeline-panel:before {
   right: auto;
   left: -15px;
   border-right-width: 15px;
   border-left-width: 0;
 }
 
-.timeline>li .timeline-panel:after {
+.timeline > li .timeline-panel:after {
   right: auto;
   left: -14px;
   border-right-width: 14px;
   border-left-width: 0;
 }
 
-.timeline>li .timeline-image {
+.timeline > li .timeline-image {
   position: absolute;
   z-index: 100;
   left: 0;
@@ -426,36 +443,36 @@ header.masthead .intro-text .intro-heading {
   color: white;
   border: 7px solid #e9ecef;
   border-radius: 100%;
-  background-color: #24d8cf;
+  background-color: #fed136;
 }
 
-.timeline>li .timeline-image h4 {
+.timeline > li .timeline-image h4 {
   font-size: 10px;
   line-height: 14px;
   margin-top: 12px;
 }
 
-.timeline>li.timeline-inverted>.timeline-panel {
+.timeline > li.timeline-inverted > .timeline-panel {
   float: right;
   padding: 0 20px 0 100px;
   text-align: left;
 }
 
-.timeline>li.timeline-inverted>.timeline-panel:before {
+.timeline > li.timeline-inverted > .timeline-panel:before {
   right: auto;
   left: -15px;
   border-right-width: 15px;
   border-left-width: 0;
 }
 
-.timeline>li.timeline-inverted>.timeline-panel:after {
+.timeline > li.timeline-inverted > .timeline-panel:after {
   right: auto;
   left: -14px;
   border-right-width: 14px;
   border-left-width: 0;
 }
 
-.timeline>li:last-child {
+.timeline > li:last-child {
   margin-bottom: 0;
 }
 
@@ -468,7 +485,8 @@ header.masthead .intro-text .intro-heading {
   text-transform: none;
 }
 
-.timeline .timeline-body>ul, .timeline .timeline-body>p {
+.timeline .timeline-body > ul,
+.timeline .timeline-body > p {
   margin-bottom: 0;
 }
 
@@ -476,28 +494,28 @@ header.masthead .intro-text .intro-heading {
   .timeline:before {
     left: 50%;
   }
-  .timeline>li {
+  .timeline > li {
     min-height: 100px;
     margin-bottom: 100px;
   }
-  .timeline>li .timeline-panel {
+  .timeline > li .timeline-panel {
     float: left;
     width: 41%;
     padding: 0 20px 20px 30px;
     text-align: right;
   }
-  .timeline>li .timeline-image {
+  .timeline > li .timeline-image {
     left: 50%;
     width: 100px;
     height: 100px;
     margin-left: -50px;
   }
-  .timeline>li .timeline-image h4 {
+  .timeline > li .timeline-image h4 {
     font-size: 13px;
     line-height: 18px;
     margin-top: 16px;
   }
-  .timeline>li.timeline-inverted>.timeline-panel {
+  .timeline > li.timeline-inverted > .timeline-panel {
     float: right;
     padding: 0 30px 20px 20px;
     text-align: left;
@@ -505,43 +523,43 @@ header.masthead .intro-text .intro-heading {
 }
 
 @media (min-width: 992px) {
-  .timeline>li {
+  .timeline > li {
     min-height: 150px;
   }
-  .timeline>li .timeline-panel {
+  .timeline > li .timeline-panel {
     padding: 0 20px 20px;
   }
-  .timeline>li .timeline-image {
+  .timeline > li .timeline-image {
     width: 150px;
     height: 150px;
     margin-left: -75px;
   }
-  .timeline>li .timeline-image h4 {
+  .timeline > li .timeline-image h4 {
     font-size: 18px;
     line-height: 26px;
     margin-top: 30px;
   }
-  .timeline>li.timeline-inverted>.timeline-panel {
+  .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 20px 20px;
   }
 }
 
 @media (min-width: 1200px) {
-  .timeline>li {
+  .timeline > li {
     min-height: 170px;
   }
-  .timeline>li .timeline-panel {
+  .timeline > li .timeline-panel {
     padding: 0 20px 20px 100px;
   }
-  .timeline>li .timeline-image {
+  .timeline > li .timeline-image {
     width: 170px;
     height: 170px;
     margin-left: -85px;
   }
-  .timeline>li .timeline-image h4 {
+  .timeline > li .timeline-image h4 {
     margin-top: 40px;
   }
-  .timeline>li.timeline-inverted>.timeline-panel {
+  .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 100px 20px 20px;
   }
 }
@@ -582,7 +600,8 @@ section#contact .form-group {
   margin-bottom: 25px;
 }
 
-section#contact .form-group input, section#contact .form-group textarea {
+section#contact .form-group input,
+section#contact .form-group textarea {
   padding: 20px;
 }
 
@@ -595,7 +614,7 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-  border-color: #24d8cf;
+  border-color: #fed136;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
@@ -663,15 +682,6 @@ ul.social-buttons li a {
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-  background-color: #24d8cf;
+  background-color: #fed136;
 }
 
-.myimage img {
-  padding: 0;
-  margin: 0;
-  height: 200px;
-  width: 200px;
-  border-radius: 50%;
-  position: relative;
-  z-index: 1;
-}
