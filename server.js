@@ -9,7 +9,7 @@ app.use(express.static(__dirname + '/public'));
 //console.log(__dirname)
 
 app.get('/', function(req, res){
-    res.sendfile('./index.html');
+    res.sendfile('/index.html');
   });
   
 var porta = process.env.PORT || 8080;
