@@ -3,7 +3,7 @@
     "name": "startbootstrap-agency",
     "version": "5.0.7",
     "scripts": {
-        "start": "node server.js"
+        "start": "nodemon server.js"
     },
     "description": "Agency is a one page HTML theme for Bootstrap.",
     "keywords": [

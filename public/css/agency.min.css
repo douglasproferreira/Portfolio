@@ -53,6 +53,10 @@ section h3.section-subheading {
     section {
         padding: 150px 0
     }
+    .img-fluid{
+        width: 300px;
+        height: 150px;
+    }
 }
 
 .btn {
@@ -77,8 +81,8 @@ section h3.section-subheading {
 }
 
 .btn-primary:active, .btn-primary:focus {
-    -webkit-box-shadow: 0 0 0 .2rem rgba(254, 209, 55, .5)!important;
-    box-shadow: 0 0 0 .2rem rgba(254, 209, 55, .5)!important
+    -webkit-box-shadow: 0 0 0 .2rem #24d8cf!important;
+    box-shadow: 0 0 0 .2rem #24d8cf!important
 }
 
 ::selection {
@@ -192,8 +196,8 @@ header.masthead .intro-text .intro-heading {
 
 @media (min-width:768px) {
     header.masthead .intro-text {
-        padding-top: 200px;
-        padding-bottom: 100px
+        padding-top: 250px;
+        padding-bottom: 150px
     }
     header.masthead .intro-text .intro-lead-in {
         font-size: 22px;
@@ -209,6 +213,10 @@ header.masthead .intro-text .intro-heading {
         line-height: 15px;
         margin-bottom: 50px;
         font-family: Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'
+    }
+    .img-fluid{
+        width: 200px;
+        height: 100px;
     }
 }
 
@@ -680,6 +688,12 @@ header.masthead .intro-text .myimage img{
     height: 180px;
     width: 180px;
     border-radius: 50%;
+    border: 15px, solid transparent;
+    transition: all, .3s ease-out;
+}
+
+div.myimage{
+    color: #1da8a1;
 }
 
 img.habilidades {
@@ -689,13 +703,18 @@ img.habilidades {
     margin-bottom: 20px;
 }
 
-img.js{
-    width: 150px;
-    height: 150px;
+img.git{
+    width: 148px;
+    height: 148px;
     border-radius: 50%;
     margin-bottom: 20px;
 }
 
 .service-heading{
     margin-top: 20px;
+}
+
+.img-fluid{
+    width: 400px;
+    height: 200px;
 }
