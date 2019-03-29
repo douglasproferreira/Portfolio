@@ -710,11 +710,7 @@ img.git{
     margin-bottom: 20px;
 }
 
-.service-heading{
-    margin-top: 20px;
-}
-
-.img-fluid{
+img.img-fluid{
     width: 400px;
     height: 200px;
 }
