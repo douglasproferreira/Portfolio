@@ -585,9 +585,10 @@ header.masthead .intro-text .intro-heading {
 
 section#contact {
     background-color: #212529;
-    background-image: url(../img/map-image.png);
+    background-image: url(../img/contato.PNG);
     background-repeat: no-repeat;
-    background-position: center
+    background-position: center;
+    background-size: 100%;
 }
 
 section#contact .section-heading {
@@ -713,4 +714,10 @@ img.git{
 img.img-fluid{
     width: 400px;
     height: 200px;
+}
+
+img.rounded-circle{
+    max-width: 100%;
+    height: auto !important;
+    border-radius: 50%;
 }
