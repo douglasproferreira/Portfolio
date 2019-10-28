@@ -1,10 +1,11 @@
 {
-    "title": "Portfolio",
-    "version": "3.0",
+    "title": "Agency",
+    "name": "startbootstrap-agency",
+    "version": "5.2.2",
     "scripts": {
         "start": "node server.js"
     },
-    "description": "Portifolio de Douglas Profirio Ferreira",
+    "description": "Agency is a one page HTML theme for Bootstrap.",
     "keywords": [
         "css",
         "sass",
@@ -19,6 +20,7 @@
         "email": "feedback@startbootstrap.com"
     },
     "license": "MIT",
+    "author": "Start Bootstrap",
     "contributors": [
         "David Miller (http://davidmiller.io/)"
     ],
