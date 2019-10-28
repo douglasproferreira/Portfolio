@@ -174,7 +174,7 @@ header.masthead {
 }
 
 header.masthead .intro-text {
-    padding-top: 150px;
+    padding-top: 80px;
     padding-bottom: 100px
 }
 
@@ -196,7 +196,7 @@ header.masthead .intro-text .intro-heading {
 
 @media (min-width:768px) {
     header.masthead .intro-text {
-        padding-top: 250px;
+        padding-top: 150px;
         padding-bottom: 150px
     }
     header.masthead .intro-text .intro-lead-in {
@@ -217,6 +217,9 @@ header.masthead .intro-text .intro-heading {
     .img-fluid{
         width: 200px;
         height: 100px;
+    }
+    .btn-xl{
+        margin-top: 30px;
     }
 }
 
@@ -733,4 +736,23 @@ a button.botao{
 
 .space {
     margin-bottom: 20px!important;
+}
+
+.text-muted-justify{
+    text-align: justify;
+}
+
+.lattes{
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+}
+
+.font-min {
+    font-size: 15px;
+    font-style: italic;
+    line-height: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
